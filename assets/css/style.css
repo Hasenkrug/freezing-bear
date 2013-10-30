@@ -53,9 +53,24 @@
 @media screen and (max-width: 485px) {    
     .navbar-brand {
         font-size:20px;
-    }
+    }        
 }
 
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
     background-color: #000000;
+}
+
+#deck_img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    #deck_img {
+        display: block !important;
+        height: 100% !important;
+        max-width:none !important;
+        margin-left:-250px;
+    }
 }
